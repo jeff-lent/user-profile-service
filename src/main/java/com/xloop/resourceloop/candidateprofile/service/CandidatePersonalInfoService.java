@@ -32,6 +32,15 @@ public class CandidatePersonalInfoService {
         if(personalInformationOptional.isPresent()) {
             CandidatePersonalInfo existingPersonalInformation = personalInformationOptional.get();
             existingPersonalInformation.setFirstName(personalInformation.getFirstName());
+            existingPersonalInformation.setLastName(personalInformation.getLastName());
+            existingPersonalInformation.setDateOfBirth(personalInformation.getDateOfBirth());
+            existingPersonalInformation.setGender(personalInformation.getGender());
+            existingPersonalInformation.setNationalIdentityNumber(personalInformation.getNationalIdentityNumber());
+            existingPersonalInformation.setPhoneNumber(personalInformation.getPhoneNumber());
+            existingPersonalInformation.setCity(personalInformation.getCity());
+            existingPersonalInformation.setAddress(personalInformation.getAddress());
+            existingPersonalInformation.setLinkedProfile(personalInformation.getLinkedProfile());
+            existingPersonalInformation.setMaritalStatus(personalInformation.getMaritalStatus());
             return existingPersonalInformation;
  
         }

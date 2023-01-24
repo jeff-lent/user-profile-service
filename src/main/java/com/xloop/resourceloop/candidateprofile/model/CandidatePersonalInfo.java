@@ -19,6 +19,7 @@ public class CandidatePersonalInfo {
     private LocalDate dateOfBirth;
     private String gender;
     private String nationalIdentityNumber;
+    private String phoneNumber;
     private String city;
     private String address;
     private String linkedProfile;
