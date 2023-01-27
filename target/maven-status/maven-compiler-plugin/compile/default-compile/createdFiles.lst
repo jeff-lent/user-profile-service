@@ -1,0 +1,13 @@
+com/xloop/resourceloop/candidateprofile/controller/CandidateAcademicInfoController.class
+com/xloop/resourceloop/candidateprofile/controller/CandidatePersonalInfoController.class
+com/xloop/resourceloop/candidateprofile/repository/ICandidateWorkExperienceRepository.class
+com/xloop/resourceloop/candidateprofile/repository/ICandidateAcademicInfoRepository.class
+com/xloop/resourceloop/candidateprofile/controller/CandidatePersonalityTestController.class
+com/xloop/resourceloop/candidateprofile/model/CandidateAcademicInfo.class
+com/xloop/resourceloop/candidateprofile/CandidateprofileApplication.class
+com/xloop/resourceloop/candidateprofile/service/CandidatePersonalInfoService.class
+com/xloop/resourceloop/candidateprofile/model/CandidatePersonalInfo.class
+com/xloop/resourceloop/candidateprofile/controller/CandidateWorkExperienceController.class
+com/xloop/resourceloop/candidateprofile/repository/ICandidatePersonalInfoRepository.class
+com/xloop/resourceloop/candidateprofile/model/CandidateWorkExperience.class
+com/xloop/resourceloop/candidateprofile/repository/ICandidatePersonalityTestRepository.class

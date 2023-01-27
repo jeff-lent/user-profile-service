@@ -1,5 +1,6 @@
 package com.xloop.resourceloop.candidateprofile;
 
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.ArgumentMatchers.any;
@@ -13,7 +14,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 import org.springframework.boot.test.autoconfigure.json.AutoConfigureJsonTesters;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -24,10 +24,8 @@ import org.springframework.http.MediaType;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.xloop.resourceloop.candidateprofile.controller.CandidateAcademicInfoController;
 import com.xloop.resourceloop.candidateprofile.controller.CandidatePersonalInfoController;
 import com.xloop.resourceloop.candidateprofile.model.CandidatePersonalInfo;
-import com.xloop.resourceloop.candidateprofile.repository.ICandidatePersonalInfoRepository;
 import com.xloop.resourceloop.candidateprofile.service.CandidatePersonalInfoService;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
@@ -75,28 +73,28 @@ class CandidateprofileApplicationTests {
 
     }
 
-    // @Test
-    // public void testCreatePersonalInformations() {
-    // CandidatePersonalInfo createdPersonalInformation =
-    // personalInformationService.createPersonalInformation(personalInformation);
-    // assertNotNull(createdPersonalInformation.getId());
-    // assertEquals(personalInformation.getFirstName(),
-    // createdPersonalInformation.getFirstName());
-    // assertEquals(personalInformation.getLastName(),
-    // createdPersonalInformation.getLastName());
-    // assertEquals(personalInformation.getDateOfBirth(),
-    // createdPersonalInformation.getDateOfBirth());
-    // assertEquals(personalInformation.getGender(),
-    // createdPersonalInformation.getGender());
-    // assertEquals(personalInformation.getNationalIdentityNumber(),
-    // createdPersonalInformation.getNationalIdentityNumber());
-    // assertEquals(personalInformation.getCity(),
-    // createdPersonalInformation.getCity());
-    // assertEquals(personalInformation.getAddress(),
-    // createdPersonalInformation.getAddress());
-    // assertEquals(personalInformation.getLinkedProfile(),
-    // createdPersonalInformation.getLinkedProfile());
-    // }
+    @Test
+    public void testCreatePersonalInformations() {
+    CandidatePersonalInfo createdPersonalInformation =
+    personalInformationService.createPersonalInformation(personalInformation);
+    assertNotNull(createdPersonalInformation.getId());
+    assertEquals(personalInformation.getFirstName(),
+    createdPersonalInformation.getFirstName());
+    assertEquals(personalInformation.getLastName(),
+    createdPersonalInformation.getLastName());
+    assertEquals(personalInformation.getDateOfBirth(),
+    createdPersonalInformation.getDateOfBirth());
+    assertEquals(personalInformation.getGender(),
+    createdPersonalInformation.getGender());
+    assertEquals(personalInformation.getNationalIdentityNumber(),
+    createdPersonalInformation.getNationalIdentityNumber());
+    assertEquals(personalInformation.getCity(),
+    createdPersonalInformation.getCity());
+    assertEquals(personalInformation.getAddress(),
+    createdPersonalInformation.getAddress());
+    assertEquals(personalInformation.getLinkedProfile(),
+    createdPersonalInformation.getLinkedProfile());
+    }
 
     // @Test
     // public void testGetPersonalInformation(){

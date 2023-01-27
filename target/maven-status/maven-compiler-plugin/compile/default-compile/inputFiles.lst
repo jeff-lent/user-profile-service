@@ -1,0 +1,13 @@
+/home/samra/Desktop/Emeritus/ResourceLoop/user-profile/user-profile-service/src/main/java/com/xloop/resourceloop/candidateprofile/controller/CandidatePersonalityTestController.java
+/home/samra/Desktop/Emeritus/ResourceLoop/user-profile/user-profile-service/src/main/java/com/xloop/resourceloop/candidateprofile/model/CandidateWorkExperience.java
+/home/samra/Desktop/Emeritus/ResourceLoop/user-profile/user-profile-service/src/main/java/com/xloop/resourceloop/candidateprofile/controller/CandidateWorkExperienceController.java
+/home/samra/Desktop/Emeritus/ResourceLoop/user-profile/user-profile-service/src/main/java/com/xloop/resourceloop/candidateprofile/repository/ICandidatePersonalityTestRepository.java
+/home/samra/Desktop/Emeritus/ResourceLoop/user-profile/user-profile-service/src/main/java/com/xloop/resourceloop/candidateprofile/CandidateprofileApplication.java
+/home/samra/Desktop/Emeritus/ResourceLoop/user-profile/user-profile-service/src/main/java/com/xloop/resourceloop/candidateprofile/repository/ICandidateWorkExperienceRepository.java
+/home/samra/Desktop/Emeritus/ResourceLoop/user-profile/user-profile-service/src/main/java/com/xloop/resourceloop/candidateprofile/model/CandidatePersonalInfo.java
+/home/samra/Desktop/Emeritus/ResourceLoop/user-profile/user-profile-service/src/main/java/com/xloop/resourceloop/candidateprofile/service/CandidatePersonalInfoService.java
+/home/samra/Desktop/Emeritus/ResourceLoop/user-profile/user-profile-service/src/main/java/com/xloop/resourceloop/candidateprofile/controller/CandidateAcademicInfoController.java
+/home/samra/Desktop/Emeritus/ResourceLoop/user-profile/user-profile-service/src/main/java/com/xloop/resourceloop/candidateprofile/controller/CandidatePersonalInfoController.java
+/home/samra/Desktop/Emeritus/ResourceLoop/user-profile/user-profile-service/src/main/java/com/xloop/resourceloop/candidateprofile/repository/ICandidateAcademicInfoRepository.java
+/home/samra/Desktop/Emeritus/ResourceLoop/user-profile/user-profile-service/src/main/java/com/xloop/resourceloop/candidateprofile/repository/ICandidatePersonalInfoRepository.java
+/home/samra/Desktop/Emeritus/ResourceLoop/user-profile/user-profile-service/src/main/java/com/xloop/resourceloop/candidateprofile/model/CandidateAcademicInfo.java
