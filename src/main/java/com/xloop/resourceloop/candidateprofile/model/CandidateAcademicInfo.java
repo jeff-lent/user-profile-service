@@ -41,9 +41,7 @@ public class CandidateAcademicInfo {
     @Setter
     private String Final_Year_Project;
 
-    @setter
-    samara
-
+   
     // @Setter
     // private String Certificates;
     // private List<MultipartFile> Certificates;

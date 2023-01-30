@@ -48,6 +48,7 @@ class CandidateprofileApplicationTests {
 
     @InjectMocks
     private CandidatePersonalInfoController personalInformationController;
+    
     private JacksonTester<CandidatePersonalInfo> jsonPersonalInformation;
     private JacksonTester<List<CandidatePersonalInfo>> jsonPersonalInformations;
 
