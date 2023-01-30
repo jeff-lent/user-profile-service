@@ -6,8 +6,12 @@ com/xloop/resourceloop/candidateprofile/controller/CandidatePersonalityTestContr
 com/xloop/resourceloop/candidateprofile/model/CandidateAcademicInfo.class
 com/xloop/resourceloop/candidateprofile/CandidateprofileApplication.class
 com/xloop/resourceloop/candidateprofile/service/CandidatePersonalInfoService.class
+com/xloop/resourceloop/candidateprofile/model/control_vocabulary/JobType_Enum.class
+com/xloop/resourceloop/candidateprofile/service/CandidateWorkExperienceService.class
 com/xloop/resourceloop/candidateprofile/model/CandidatePersonalInfo.class
 com/xloop/resourceloop/candidateprofile/controller/CandidateWorkExperienceController.class
+com/xloop/resourceloop/candidateprofile/service/CandidateAcademicInfoService.class
 com/xloop/resourceloop/candidateprofile/repository/ICandidatePersonalInfoRepository.class
+com/xloop/resourceloop/candidateprofile/RequestBody/AcademiclInfoRequestBody.class
 com/xloop/resourceloop/candidateprofile/model/CandidateWorkExperience.class
 com/xloop/resourceloop/candidateprofile/repository/ICandidatePersonalityTestRepository.class
