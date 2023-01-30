@@ -36,7 +36,7 @@ public class CandidateWorkExperience {
     private Long user_id;
 
     public CandidateWorkExperience(String jobTitle, String jobType, String companyName, Boolean currentWorkingHere,
-            Date startDate, Date endDate) {
+            Date startDate, Date endDate, Long user_id) {
         this.jobTitle = jobTitle;
         this.jobType = jobType;
         this.companyName = companyName;
