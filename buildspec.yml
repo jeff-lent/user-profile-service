@@ -1,0 +1,22 @@
+version: 0.2
+
+version: 0.2
+env:
+  variables:
+    JAVA_HOME: "/usr/lib/jvm/java-17-amazon-corretto/"
+phases:
+    install:
+      commands:
+        - apt-get update; apt-get install -y java-17-amazon-corretto-jdk
+        - update-alternatives --auto javac
+        - update-alternatives --auto java
+    build:
+      commands:
+        - echo Build started on `date` 
+        - mvn clean install
+    post-build:
+      commands:
+        - echo Build completed on `date`
+artifacts:
+  files:
+    - target/candidateprofile-0.0.1-SNAPSHOT.jar
