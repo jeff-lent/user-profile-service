@@ -7,8 +7,8 @@ env:
 phases:
     install:
       commands:
-        - apt-get update
-        - apt-get install -y java-17-amazon-corretto-jdk
+        - yum makecache
+        - yum install java-17-amazon-corretto-jdk -y
         - update-alternatives --auto javac
         - update-alternatives --auto java
     build:
