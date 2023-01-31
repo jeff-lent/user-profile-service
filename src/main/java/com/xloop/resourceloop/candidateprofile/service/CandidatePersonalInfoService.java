@@ -6,7 +6,6 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.xloop.resourceloop.candidateprofile.model.CandidateAcademicInfo;
 import com.xloop.resourceloop.candidateprofile.model.CandidatePersonalInfo;
 import com.xloop.resourceloop.candidateprofile.repository.ICandidatePersonalInfoRepository;
 
