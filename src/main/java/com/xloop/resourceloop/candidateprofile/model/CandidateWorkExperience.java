@@ -18,7 +18,7 @@ public class CandidateWorkExperience {
     @Column( nullable = false)
     private String jobTitle;
 
-    @Enumerated(EnumType.STRING)
+   // @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     private String jobType;
 
