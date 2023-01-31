@@ -1,9 +1,7 @@
 version: 0.2
 
 version: 0.2
-env:
-  variables:
-    JAVA_HOME: "/usr/lib/jvm/java-17-amazon-corretto/"
+
 phases:
     install:
       runtime-versions:
