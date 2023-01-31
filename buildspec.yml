@@ -6,11 +6,8 @@ env:
     JAVA_HOME: "/usr/lib/jvm/java-17-amazon-corretto/"
 phases:
     install:
-      commands:
-        - yum makecache
-        - yum install java-17-amazon-corretto-jdk -y
-        - update-alternatives --auto javac
-        - update-alternatives --auto java
+      runtime-versions:
+        java: corretto17
     build:
       commands:
         - echo Build started on `date` 
